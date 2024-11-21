@@ -14,7 +14,7 @@ const Chapter = () => {
     );
     console.log(res);
     const data_format = await res.data.data;
-    // เก็บข้อมูลที่อ่านได้ใส่ State
+    // เก็บข้อมูลที่อ่านได้ใส่ State 
     setData(data_format);
   };
   useEffect(() => {

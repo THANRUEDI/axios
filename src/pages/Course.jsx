@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import "../styles.css"
 
 const Course = () => {
   const [data, setData] = useState([]);
